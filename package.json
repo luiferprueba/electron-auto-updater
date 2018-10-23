@@ -4,9 +4,12 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "build --win",
+    "ship": "build --win -p always"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "homepage": "./",
+  "repository": "https://github.com/luiferprueba/electron-auto-updater.git",
   "keywords": [
     "Electron",
     "quick",
@@ -14,7 +17,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "luiferprueba",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^3.0.4",
